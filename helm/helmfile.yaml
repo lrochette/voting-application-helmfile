@@ -6,5 +6,5 @@ releases:
     chart: .
     values:
       - values.yaml
-    # secrets:
-    #   - secrets.yaml
+    secrets:
+      - secrets.yaml
