@@ -24,7 +24,7 @@ spec:
             - name: POSTGRES_PASSWORD
               value: postgres
             - name: FRANCISCO
-              value: {{ .Values.appVersion }}
+              value: 1.2.3  # {{ .Values.appVersion }}
           ports:
             - containerPort: 5432
               name: postgres
